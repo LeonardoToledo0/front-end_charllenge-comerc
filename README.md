@@ -64,8 +64,6 @@ cd front-end_charllenge-comerc
 
 ### ▶️ Execução Local
 
-### ▶️ Execução Local
-
 | Ambiente | Comando           | Acesso                |
 | -------- | ----------------- | --------------------- |
 | Dev      | `yarn dev`        | http://localhost:5173 |

@@ -17,10 +17,11 @@ jobs:
       - name: ⚙️ Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "20"
+          cache: "yarn"
 
       - name: 📦 Instalar dependências
-        run: yarn
+        run: yarn install --frozen-lockfile
 
       - name: 🛠️ Build do projeto
         run: yarn build
